@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #FCEEF1;
+    height: 100vh;
+    border: none;
+
+}
+.container-wide{
+    width: 80%;
+    margin:0px auto;
+}
+.nav-container{
+    display: flex;
+    /* background-color: #FCEEF1; */
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-text{
+    max-width: 100%;
+    
+}
+.nav-text-title{
+    padding-top: 103px;
+    width: 100%;
+    font-size: 60px;
+    color: #272727;
+    font-weight: 800;
+}
+.nav-text-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0px;
+    width: 80%;
+}
+.nav-pic{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.nav-pic img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+/* Start main section */
+.tittle{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.paragraph{
+    margin-top: 4%;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* .flower-paragraph, .flower-title{
+    text-align: center;
+} */
+
+.flowers-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.flower-bg1{
+    background-color: #F1DDE7;
+}
+.flower-bg2{
+    background: #D9EFF0;
+}
+.flower-bg3{
+    background-color: #E3EBDB;
+}
+.flower-bg1, .flower-bg2, .flower-bg3{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 350px;
+    height: 400px;
+}
+.flower-bg1 img, .flower-bg3 img{
+    width: 200px;
+    height: 300px;
+    padding-top: 28.5%;
+}
+.flower-bg2 img{
+    width: 200px;
+    height: 250px;
+    padding-top: 30%;
+}
+.flowers-container h6{
+    margin-top: 5%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+.icon{
+    padding: 40px 40px;
+}
+.icon img{
+    padding-left: 28%;
+}
+.icon P{
+    font-size: 20px;
+}
+.hot-deal{
+    background-color: #FDF6F8;
+}
+.hot-deal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8%;
+    padding: 7% 8%;
+}
+.mark{
+    color: #E55473;
+}
+.deal-title{
+    text-align: center;
+    font-size: 30px;
+}
+.deal-p{
+    padding-top: 6%;
+    padding-bottom: 3%;
+    width: 90%;
+    margin: auto;
+}
+.deal-btn{
+   text-align: center;
+}
+.hot-deal-info{
+    width: 50%;
+}
+.insta-paragraph{
+    padding-top: 3%;
+    width: 50%;
+    margin: auto;
+}
+.flower-pic-box{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.box-flower img{
+    width: 250px;
+    height: 300px;
+}
+
+/* Upcoming Item */
+
+.upcoming-paragraph{
+    padding-top: 3%;
+    width: 50%;
+    margin: auto;
+}
+.upcoming-flower-pic-box{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.upcoming-box-flower img{
+    width: 250px;
+    height: 300px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow:  4px 4px 20px red;
+}
+
+
+.last-step-container{
+    margin-top: 6%;
+    height: 250px;
+    background-image: url('../images/Rectangle\ 9.png');
+    border-radius: 5px;
+    background-size: 100% 100%;
+}
+.last-tittle{
+    padding-top: 3%;
+    text-align: center;
+}
+.last-paragraph{
+    padding-top:2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+/* .last-step-container input{
+    text-align: center;
+} */
+.your-mail input[type="mail"]{
+    width: 80%;
+    text-align: center;
+}
+.input-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+.input-item  input[type="email"] {
+    display: block;
+    height: 54px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+}
+.input-item  input[type="email"]{
+    padding-left: 10px;
+}
+    
+.footer-container{
+    margin-top: 100px;
+    background-color: black;
+    color: #F4F4F4;
+}
+.footer-title{
+    text-align: center;
+    padding-top: 60px;
+}
+.footer-para{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.finish{
+    text-align: center;
+    color: dimgrey;
+    padding-bottom: 20px;
+}
