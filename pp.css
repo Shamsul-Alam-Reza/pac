@@ -196,7 +196,7 @@ header{
 .last-step-container{
     margin-top: 6%;
     height: 250px;
-    background-image: url('../images/Rectangle\ 9.png');
+    background-image: url("./images/Rectangle\ 9.png");
     border-radius: 5px;
     background-size: 100% 100%;
 }
